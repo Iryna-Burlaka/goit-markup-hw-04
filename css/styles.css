@@ -83,8 +83,6 @@ body {
 .menu-list {
   display: flex;
   gap: 40px;
-  position: relative;
-  color: #404bbf;
 }
 
 .menu-link {
@@ -95,6 +93,8 @@ body {
   letter-spacing: 0.02em;
   padding: 24px 0;
   display: block;
+  position: relative;
+  color: #404bbf;
 }
 
 .menu-link:hover {
