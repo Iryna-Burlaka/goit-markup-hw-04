@@ -595,7 +595,6 @@ img {
 .footer-icon-item {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon-link {
@@ -606,10 +605,7 @@ img {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-}
-
-.footer-icon {
-  fill: #f4f4fd;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon-link:hover {
@@ -618,6 +614,11 @@ img {
 .footer-icon-link:focus {
   background-color: #31d0aa;
 }
+
+.footer-icon {
+  fill: #f4f4fd;
+}
+
 .footer-icon {
   margin: 8px 8px;
 }
