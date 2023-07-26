@@ -84,6 +84,9 @@ body {
 .menu-list {
   display: flex;
   gap: 40px;
+}
+
+.menu-item {
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -91,15 +94,6 @@ body {
   background-color: #404bbf;
   border-radius: 2px;
 }
-
-/* .menu-item {
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-} */
 
 .menu-link {
   color: var(--head-color);
@@ -548,6 +542,10 @@ img {
   align-items: baseline;
 }
 
+.container-footer-logo {
+  margin-right: 120px;
+}
+
 .footer-logo {
   color: #4d5ae5;
   font-size: 18px;
@@ -578,11 +576,10 @@ img {
 .container-footer-icon {
   display: block;
   align-items: start;
-  margin-left: 120px;
 }
 
 .icon-text {
-  color: #f4f4fd;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
